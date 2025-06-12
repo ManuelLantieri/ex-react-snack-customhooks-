@@ -18,6 +18,7 @@ function useCustomPointer(prop) {
         top: position.y,
         left: position.x,
         transform: "translate(-50%, -50%)",
+        cursor: "none",
       }}
     >
       {prop}
